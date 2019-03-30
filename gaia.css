@@ -1,0 +1,27 @@
+td {
+  text-align: center;
+}
+header {
+  text-align: center;
+  border-bottom: 2px solid;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.전체 {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+}
+.소단원 {
+  border-bottom: 1px solid;
+  padding-left: 10px
+}
+.목차 {
+  border-right: 2px solid;
+}
+@media(max-width:800px) {
+  .전체 {
+    display: block;
+  }
+}
